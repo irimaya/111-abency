@@ -1,0 +1,90 @@
+/* Main Styling */
+header {
+  height: 100%;
+}
+
+/* Utility Classes */
+.display-1 { 
+  font-size: 40px; 
+}
+.display-2 { 
+  font-size: 30px; 
+}
+
+form {
+  width: 90%;
+}
+
+/* Navbar */
+#navbar {
+  text-align: center;
+}
+
+#navbar .logo {
+  float: none;
+}
+
+#navbar ul {
+  float: none;
+}
+
+#navbar ul li {
+  float: none;
+}
+
+/* Showcase */
+#showcase {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.showcase-cards {
+  padding-top: 20px;
+}
+
+.showcase-cards .card-1,
+.showcase-cards .card-2,
+.showcase-cards .card-3,
+.showcase-cards .card-4 {
+  float: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* About */
+#about {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#about h2 {
+  padding-bottom: 20px;
+}
+
+#about p {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Services */
+#services {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#services h2 {
+  padding-bottom: 20px;
+}
+
+.service-cards .card-1,
+.service-cards .card-2,
+.service-cards .card-3,
+.service-cards .card-4 {
+  float: none;
+  width: 100%;
+}
