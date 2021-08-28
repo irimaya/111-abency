@@ -1,64 +1,41 @@
-/* Main Styling */
 header {
   height: 100%;
 }
 
-/* Utility Classes */
-.display-1 { 
-  font-size: 40px; 
+.display-1 {
+  font-size: 40px;
 }
-.display-2 { 
-  font-size: 30px; 
+
+.display-2 {
+  font-size: 30px;
+}
+
+.card {
+  float: none;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
 }
 
 form {
+  padding-top: 50px;
   width: 90%;
-}
-
-/* Navbar */
-#navbar {
-  text-align: center;
-}
-
-#navbar .logo {
-  float: none;
-}
-
-#navbar ul {
-  float: none;
-}
-
-#navbar ul li {
-  float: none;
 }
 
 /* Showcase */
 #showcase {
-  width: 100%;
-  padding-top: 30px;
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.showcase-cards {
+  width: 90%;
   padding-top: 20px;
 }
 
-.showcase-cards .card-1,
-.showcase-cards .card-2,
-.showcase-cards .card-3,
-.showcase-cards .card-4 {
-  float: none;
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 20px;
+#showcase h1 {
+  padding-bottom: 10px;
 }
 
 /* About */
 #about {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  text-align: center;
+  padding: 50px 0;
 }
 
 #about h2 {
@@ -66,25 +43,35 @@ form {
 }
 
 #about p {
-  width: 100%;
-  margin-bottom: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* Features */
+#feature {
+  padding: 20px 0;
+}
+
+#feature p{
+    font-size: 30px;
 }
 
 /* Services */
 #services {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  text-align: center;
+  padding: 40px 0;
 }
 
 #services h2 {
   padding-bottom: 20px;
 }
 
-.service-cards .card-1,
-.service-cards .card-2,
-.service-cards .card-3,
-.service-cards .card-4 {
-  float: none;
-  width: 100%;
+/* Contact */
+#contact {
+  padding: 60px 0;
+}
+
+/* Footer */
+#mainfooter {
+  padding: 20px;
 }

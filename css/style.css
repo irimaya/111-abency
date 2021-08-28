@@ -11,14 +11,14 @@
 html,
 body {
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h4 { font-size: 1.5rem; }
+h1 { font-size: 40px; }
+h2 { font-size: 32px; }
+h4 { font-size: 24px; }
 
 p {
-  font-size: 1rem;
   margin: 10px 0;
   line-height: 1.7em;
 }
@@ -38,29 +38,47 @@ header {
   padding: 0 20px;
 }
 
-.small { 
-  font-size: 0.8rem; 
+.small {
+  font-size: 14px;
   font-weight: 700;
 }
 
-.display-1 { 
-  font-size: 72px; 
+.large {
+  font-size: 18px;
+}
+
+.display-1 {
+  font-size: 72px;
   font-weight: 200;
 }
-.display-2 { 
-  font-size: 56px; 
+
+.display-2 {
+  font-size: 56px;
   font-weight: 300;
 }
 
-.btn {
-  display: inline-block;
-  font-size: 15px;
-  padding: 12px 23px;
-  cursor: pointer;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 4px;
-  width: 100%;
+.card {
+  float: left;
+  width: 23%;
+  padding: 50px 30px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.card-light {
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.card-dark {
+  background: #000;
+  color: #fff;
+  text-align: left;
+}
+
+.card img {
+  height: 100px;
 }
 
 form {
@@ -71,11 +89,11 @@ form {
 
 form label {
   display: inline-block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 form .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 form .form-control {
@@ -89,6 +107,18 @@ form .form-control {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  width: 100%;
+  background: #fff;
 }
 
 /* Navbar */
@@ -107,7 +137,7 @@ form .form-control {
 
 #navbar .logo {
   float: left;
-  padding-top: 16px;
+  padding-top: 15px;
   font-size: 25px;
   font-weight: 600;
 }
@@ -127,52 +157,31 @@ form .form-control {
   text-align: center;
 }
 
-#navbar ul li a:hover,
-#navbar ul li a.current {
+#navbar ul li a:hover {
   text-decoration: underline;
 }
 
 /* Showcase */
 #showcase {
   color: #fff;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 #showcase h1 {
   padding-bottom: 20px;
 }
 
-.showcase-cards {
-  padding-top: 40px;
-}
-
-.showcase-cards .card-1,
-.showcase-cards .card-2,
-.showcase-cards .card-3,
-.showcase-cards .card-4 {
-  float: left;
-  width: 23%;
-}
-
-.showcase-cards .card {
-  background: #fff;
-  color: #000;
-  text-align: center;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 10px;
-}
-
-.showcase-cards .card img {
-  height: 80px;
+#showcase p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 20px;
 }
 
 /* About */
 #about {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 120px 0;
 }
 
 #about h2 {
@@ -185,71 +194,43 @@ form .form-control {
   margin-bottom: 30px;
 }
 
-/* Feature */
+/* Features */
 #feature {
   background: #000;
   color: #fff;
-  padding: 10px;
+  padding: 40px 0;
 }
 
-#feature p {
-  text-align: center;
-  font-weight: 200;
-  font-size: 40px;
+#feature p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
 }
 
 /* Services */
 #services {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 120px 0;
 }
 
 #services h2 {
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
 
-.service-cards {
-  padding-top: 40px;
-}
-
-.service-cards .card-1,
-.service-cards .card-2,
-.service-cards .card-3,
-.service-cards .card-4 {
-  float: left;
-  width: 24%;
-}
-
-.service-cards .card {
-  background: #000;
-  color: #fff;
-  text-align: left;
-  padding: 50px 30px;
-  margin: 5px;
-  border-radius: 10px;
-}
-
-.service-cards .card img {
-  height: 80px;
-}
-
-.service-cards .card h4 {
+#services .card h4 {
   padding: 20px 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Contact */
 #contact {
   background: #000;
   color: #fff;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 120px 0;
 }
-
 
 /* Footer */
 #mainfooter {
   background: #000;
   text-align: center;
-  padding:30px;
+  padding: 30px;
 }
